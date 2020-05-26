@@ -1,0 +1,39 @@
+<!--Web Design by Hayden Chapman-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />    <link rel="stylesheet" href="style.css">
+    <title>Hayden Chapman</title>
+</head>
+<body>
+    <header>
+        <h1>Just Another Task</h1><br>
+    </header>
+    <div class="intro" type="text" name="intro">
+    <h4>Enter things you need to get done below.</h4>
+    </div>
+    <form>
+        <input type="text" name="text" class="todo-input">
+        <button class="todo-button" type="submit">
+        <i class="fas fa-plus-square"></i>
+        </button>
+        <div class="select">
+            <select name="todos" class="filter-todo">
+                <option value='all'>All Tasks</option>
+                <option value='completed'>Completed</option>
+                <option value='uncompleted'>Uncompleted</option>
+            </select>
+        </div>
+    </form>
+
+    <div class="todo-container">
+        <ul class="todo-list"></ul>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+<!--Web Design by Hayden Chapman-->
+</html>
